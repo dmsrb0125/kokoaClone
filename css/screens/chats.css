@@ -1,0 +1,18 @@
+.chats-screen{
+padding: var(--holizontal-space);
+display: flex;
+flex-direction: column
+}
+
+.chats-screenform{
+display: flex;
+justify-content: space-between;
+width: 100%;
+box-sizing: border-box;
+margin-bottom: 20px;
+}
+.chats-screenform:hover{
+    background-color: rgba(0, 0, 0, 0.1) ;
+    border-radius: 10px;
+    transition: background-color 0.5s ease-in-out;
+}

@@ -1,0 +1,73 @@
+.upload {
+    position: absolute;
+
+}
+
+.upload-badge{
+    position: relative;
+    background-color: tomato;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    font-weight: 600;
+    bottom:40px;
+    left: 30px;
+}
+.exclamation_mark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    width: 18px;
+    height: 18px;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+.more-screen{
+    padding: var(--holizontal-space);
+    width: 100%;
+    box-sizing: border-box;
+}
+.more__space{
+    display: block;
+    height: 50px;
+}
+.more-screen__bottom{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    height: 300px;
+    width: 100%;
+    padding-top: 20px;
+}
+.more-screen__bottom > span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.more-screen__bottom__channel{
+    display: flex;
+    width: 100%x;
+    height: 100px;
+}
+.channel{
+    margin-top: 20px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+}
+
+.channel img{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.channel span{
+    margin-left: 15px;
+}

@@ -1,0 +1,129 @@
+.cog{
+    position: absolute;
+}
+
+.cog-badge{
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    font-weight: 600;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+.find-screen{
+    padding: var(--holizontal-space);
+    width: 100%;
+    box-sizing: border-box;
+}
+.find-screen__text{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    height: 200px;
+    justify-content: space-between;
+    padding-top: 20px;
+    opacity: 0.5;
+}
+.find-screen__text_c{
+    font-size: 20px;
+    text-align: center;
+}
+
+.open-chat{
+    margin-top: 100px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    width: 100%;
+}
+.open-chat__top{
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-between;
+}
+.open-chat__top i{
+    opacity: 0.3;
+}
+.open-chat__main{
+    margin-top: 20px;
+    display: flex;
+    height: 220px;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.open-chat__main__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.open-chat__main__text{
+    margin-bottom: 8px;
+
+}
+
+.open-chat__main__text:first-child{
+    font-size: 30px;
+    font-weight: 600;
+}
+.open-chat__main__text:nth-child(2){
+    opacity: 0.5;
+    font-size: 20px;
+}
+.member1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.open-chat__main__text__member{
+    font-size:15px;
+    display: flex;
+    align-items: center;
+}
+
+.open-chat__main__text__member span{
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.divider{
+    
+    width: 1px;
+    height: 80%;
+    background-color: black;
+}
+
+.active{
+    color: #ffb9e4
+}
+.poster{
+    margin-top: 50px;
+    width: 110px;
+    height: 110px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.open-chat__main-__poster{
+    position: relative;
+}
+.heart{
+    width: 60px;
+    height: 20px;
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    bottom: 60px;
+}
+.heart i{
+    margin-right: 5px;
+}
+

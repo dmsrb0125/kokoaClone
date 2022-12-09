@@ -1,0 +1,120 @@
+.jyp_title{
+    margin-left: 100px;
+}
+
+.chat{
+    background-color: #9bbad0;
+    height: 100vh;
+    width: 100%;
+}
+
+.JYP{
+    padding: var(--holizontal-space);
+    display: flex;
+    flex-direction: column;
+}
+
+.chat_day{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.chat_day-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    font-size: 22px;
+    font-weight: 200;
+    opacity: 0.5;
+}
+.chat_main{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.chat_jyp{
+    display: flex;
+    height: 80px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+.jyp_image{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+}
+.jyp_text{
+    display: flex;
+    width: 250px;
+    height: 200px;
+    flex-direction: column;
+}
+.jyp_text span{
+    font-size: 18px;
+    margin-left: 10px;
+    opacity: 0.7;
+}
+.jyp_text-content{
+    display: flex;
+}
+.jyp_text-content-main{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.jyp_text-content-main_2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 50px;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.content-time{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 8px;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.chat_me{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.me_content{
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
